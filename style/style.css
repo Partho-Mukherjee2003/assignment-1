@@ -10,6 +10,7 @@
 
 
 header{
+    background-color: #e6e6ea;
     margin-top: 23.04px;
     margin-left: 153.6px;
     margin-right: 153.6px;
@@ -20,6 +21,7 @@ header{
 }
 
 header h3 {
+    background-color: #e6e6ea;
     font-size: 30.72px;
     font-weight: bold;
     color: #0E0E0E;
@@ -51,11 +53,13 @@ header button{
 /* Bannner Section */
 
 .banner .banner-text p{
+    
     font-weight: medium;
     font-size: 23.04px;
     color: rgba(14, 14, 14, 0.5);
 }
 .banner .banner-text h1{
+    
     margin-top: 15.36px;
     font-weight: bold;
     font-size: 53.76px;
@@ -97,6 +101,7 @@ header button{
 /* Vision Section */
 
 .vision .vision-text h1{
+    background-color: #e6e6ea;
     color: rgb(14, 14, 14);
 font-family: Fira Sans;
 font-size: 40px;
@@ -262,7 +267,7 @@ text-align: left;
         display: flex;
         justify-content: space-between;
         gap: 20px;
-        background-color: white;
+        background-color: rgb(255, 255, 255);
         padding: 45px;
         border-radius: 8px;
     
@@ -272,7 +277,10 @@ text-align: left;
         justify-content: space-between;
         gap: 30px;
         flex-direction: row-reverse;
+        background-color: rgb(255, 255, 255);
         padding: 45px;
+        margin-top: 25px;
+        border-radius: 8px;
     }
     .img1{
         border: none;
@@ -283,7 +291,7 @@ text-align: left;
 
     }
     .news-card-text{
-        background-color: white;
+        background-color: rgb(255, 255, 255);
     }
     
     .img3{
@@ -321,4 +329,14 @@ cursor: pointer;
     background-color: rgb(92, 61, 3);
     transform: translateY(2px);
     color: white;
+}
+.time{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+
 }
