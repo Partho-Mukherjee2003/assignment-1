@@ -69,6 +69,7 @@ header button{
     border-radius: 5px;
     padding: 16.32px 32.64px;
     cursor: pointer;
+    border: none;
 }
 .banner .banner-text button:active {
     background-color: rgb(36, 174, 96);
@@ -156,6 +157,7 @@ letter-spacing: 0%;
 text-align: left;
 margin-top: px;
 cursor: pointer;
+border: none;
 }
 .vision .vision-card .card1  button:active {
     background-color: rgb(68, 56, 235);
