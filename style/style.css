@@ -35,6 +35,16 @@ header button{
     cursor: pointer;
 
 }
+/* header button:hover{
+    background-color: #006A50;
+    color: #FFFFFF;
+} */
+ header  button:active {
+    background-color: rgb(36, 174, 96);
+    transform: translateY(4px);
+} 
+
+
 
 
 /* Bannner Section */
@@ -59,6 +69,10 @@ header button{
     border-radius: 5px;
     padding: 16.32px 32.64px;
     cursor: pointer;
+}
+.banner .banner-text button:active {
+    background-color: rgb(36, 174, 96);
+    transform: translateY(4px);
 }
 .banner .banner-image img{
     width: 455.06px;
@@ -141,14 +155,26 @@ line-height: 19px;
 letter-spacing: 0%;
 text-align: left;
 margin-top: px;
+cursor: pointer;
+}
+.vision .vision-card .card1  button:active {
+    background-color: rgb(68, 56, 235);
+    transform: translateY(4px);
 }
 .vision .vision-card .card2 button{
     margin-top: 20px;
     background-color: #006A50;
-
 } 
+.vision .vision-card .card2 button:active {
+    background-color: rgb(36, 174, 96);
+    transform: translateY(4px);}
+
 .vision .vision-card .card3 button{
     background-color: orange;
+}
+.vision .vision-card .card3 button:active {
+    background-color: rgb(92, 61, 3);
+    transform: translateY(4px);
 }
 
 .vision .vision-card .card1{
