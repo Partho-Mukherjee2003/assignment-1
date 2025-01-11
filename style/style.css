@@ -280,6 +280,7 @@ text-align: left;
         background-color: rgb(255, 255, 255);
         padding: 45px;
         border-radius: 8px;
+        align-items: center;
     
     }
     .recent-news .news-card .news-card2{
@@ -291,6 +292,7 @@ text-align: left;
         padding: 45px;
         margin-top: 25px;
         border-radius: 8px;
+        align-items: center;
     }
     .img1{
         border: none;
